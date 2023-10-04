@@ -1,0 +1,39 @@
+#ecom_rw_main_heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 3rem;
+    color: #0074FF;
+}
+
+#ecom_rw_img{
+    width : 300px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 16px 0px rgb(228, 227, 227);
+    border-radius: 20px;
+    transition: all 0.5s linear;
+}
+
+#ecom_rw_img:hover{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px) {
+    #ecom_rw_img{
+        width : 350px
+    }
+    #ecom_rw_img_cont{
+        flex-direction: column;
+    }
+}
+    
+@media screen and (max-width: 1100px) and (min-width: 769px) {
+    #ecom_rw_main_heading{
+        font-size: 2rem;
+    }
+    #ecom_rw_img{
+        width : 500px
+    }
+}
+    

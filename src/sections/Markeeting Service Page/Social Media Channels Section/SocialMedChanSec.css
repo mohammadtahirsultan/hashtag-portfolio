@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px) {
+    #smsp_smcs_sec_ico_cont {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, auto);
+      gap: 24px;
+    }
+    #smsp_smcs_main_heading{
+        width: 90%;
+    }
+  }

@@ -1,0 +1,90 @@
+html{
+    overflow-x: hidden;
+}
+
+#ctu_sec_email_input_field{
+    outline: none;
+    border: 1px transparent;
+    background-color: #3390FF;
+    padding: 21px 0px 21px 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: semibold;
+}
+
+#ctu_sec_email_input_field::placeholder{
+    color: #99C8FF;
+    font-weight: 700;
+}
+
+#ecom_cus_sub_btn{
+    outline: none;
+    border: none;
+    background-color: white;
+    color: #008AFF;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: all 0.2s linear;
+    width: 100%;
+}
+
+#ecom_cus_sub_btn:hover{
+    background-color: rgb(216, 247, 229);
+    color: #0482f1;
+}
+
+#ecom_cus_placeh{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#ecom_cus_placeh_txt{
+    font-weight: 600;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 850px) {
+    #ecom_cus_mainheading{
+        text-align: center;
+        width: 100%;
+    }
+    #ecom_cus_wrapper{
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 50px 20px;
+        max-width: 100%;
+        /* margin: 0 20px; */
+    }
+    #ctu_sec_email_input_field{
+        width: 100%;
+    }
+
+
+    #ecom_cus_sub_btn{
+        width: 100%;
+        margin-top : 20px
+    }
+
+    #ecom_cus_ajeeb{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+    #ecom_cus_placeh_txt{
+        font-size: 14px;
+    }
+
+
+
+}

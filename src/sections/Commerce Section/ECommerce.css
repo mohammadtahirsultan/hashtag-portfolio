@@ -1,0 +1,81 @@
+#ecom__sec__wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+/* 483w 483h */
+
+#ecom__sec__left__side{
+    width: 100%;
+}
+
+#ecom__sec__banner__img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#ecom__sec__right__side{
+    width: 100%;
+    padding: 20px 20px;
+}
+
+#ecom__sec__subheading, #ecom__sec__mainheading, #ecom__sec__desc,
+#ecom__sec__cta__button{
+    padding: 10px 0;
+}
+
+#ecom__sec__subheading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #313131;
+}
+
+#ecom__sec__mainheading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #006EFF;
+}
+
+#ecom__sec__desc{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #313131;
+}
+
+#ecom__sec__btn__container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#ecom__sec__cta__button{
+margin-top: 20px;
+background-color: #666666;
+padding: 10px 20px; 
+border-radius: 5px;
+color: white;
+font-weight: 600;
+transition: all ease-in-out 0.3s;
+}
+
+#ecom__sec__cta__button:hover{
+    background-color: #006EFF;
+    }
+
+
+/* ecom__sec__wrapper */
+
+@media screen and (max-width: 899px) {
+    #ecom__sec__wrapper{
+        padding: 10% 0;
+    }
+
+    #ecom__sec__wrapper{
+        flex-wrap: wrap-reverse;
+    }
+  }

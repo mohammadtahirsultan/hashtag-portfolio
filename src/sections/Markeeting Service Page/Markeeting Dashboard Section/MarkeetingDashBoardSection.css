@@ -1,0 +1,17 @@
+#smsp_ds_wrapper{
+    background-image: url("./bottom.webp");
+    background-size: cover;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 0;
+    border-radius: 12px;
+    box-shadow: 0 1px 5px 2px rgba(0,0,0,0.2);
+}
+
+#smsp_d_p_ico{
+    box-shadow: 0 1px 16px 10px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}

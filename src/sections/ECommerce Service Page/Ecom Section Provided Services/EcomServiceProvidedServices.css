@@ -1,0 +1,37 @@
+#ecom_ps_main_heading{
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    overflow: hidden;
+    color: #0074FF;
+}
+
+#ecom__ps__img__cont{
+    gap: 15%;
+}
+
+#ecom_ps_micons{
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #ecom_ps_main_heading{
+        font-size: 3rem;
+        width: 90%;
+    }
+    #ecom_ps_micons{
+        width: 80px;
+    }
+    #ecom__ps__img__cont{
+        gap: 15%;
+    }
+    #ecom_ps_main_heading{
+        margin: 10% 1%;
+    }
+}

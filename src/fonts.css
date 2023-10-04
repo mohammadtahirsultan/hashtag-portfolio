@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Britney';
+    src: url('/path/to/britney.woff2') format('woff2'),
+         url('/path/to/britney.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2') format('woff2'),
+         url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z11lFQ.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }

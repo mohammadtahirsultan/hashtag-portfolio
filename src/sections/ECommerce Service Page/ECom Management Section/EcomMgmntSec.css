@@ -1,0 +1,60 @@
+#ecom_hero_mgmnt_img{
+    width: 400px;
+    transition: all 0.1s linear;
+}
+
+#ecom_hero_mgmnt_img:hover{
+    width: 400px;
+    transform: scale(1.1);
+}
+
+#ecom_hero_mgmnt_img:nth-child(4){
+    width: 300px;
+}
+
+#ecom_mgmnts_mainheading{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0074FF;
+}
+
+#ecom_mgmnts_maintext:nth-child(odd){
+    font-size: 1.1rem;
+    color: #000000;
+    text-wrap: wrap;
+    max-width: 80%;
+}
+
+#ecom_mgmnts_desc:nth-child(even){
+    margin-left: 150px;
+}
+
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    #ecom_mgmnt_secs{
+        flex-wrap: wrap;
+    }
+    #ecom_mgmnt_secs:nth-child(even){
+        flex-wrap: wrap-reverse;
+    }
+    #ecom_mgmnts_maintext:nth-child(odd){
+        max-width: 100%;
+    }
+
+    #ecom_mgmnts_desc:nth-child(even){
+        margin-left: 0;
+    }
+}
+
+/* Media query for tablet responsiveness */
+@media screen and (max-width: 1100px) and (min-width: 769px) {
+    #ecom_hero_mgmnt_img{
+        width: 250px;
+    }
+    #ecom_hero_mgmnt_img:hover{
+        width: 250px;
+        transform: scale(1.1);
+    }
+    
+}
