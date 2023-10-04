@@ -8,6 +8,8 @@ import EComServicePage from './pages/Ecommerce Service Page/EComServicePage';
 import NotFoundPage from './pages/Page Not Found/NotFoundPage';
 import Blogs from './sections/Blogs Section/Blogs';
 import BlogPage from './sections/Blogs Section/BlogPage';
+import Careers from './sections/Careers/Careers';
+import JobDetails from './sections/Careers/JobDetails';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/marketing-service" element={<MarkeetingServicePage />} />
         <Route path="/ecommerce-service" element={<EComServicePage />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/job/frontend" element={<JobDetails />} />
         <Route path="/blog/:id" element={<BlogPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

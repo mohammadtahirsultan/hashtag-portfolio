@@ -40,12 +40,4 @@ export const blogReducer = createReducer({}, {
     },
 
 
-
-    clearMessage: (state) => {
-        state.message = null
-    },
-    clearError: (state) => {
-        state.error = null
-    }
-
 })

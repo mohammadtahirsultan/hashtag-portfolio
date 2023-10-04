@@ -15,7 +15,7 @@ const Blogs = () => {
 
     const dispatch = useDispatch()
 
-    const { resultPerPage, blogsCount, filterBlogsCount } = useSelector(state => state.blog)
+    const { resultPerPage, blogsCount } = useSelector(state => state.blog)
 
     const params = useParams();
     const keyword = params.keyword;
